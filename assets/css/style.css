@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* wrapper */
 .wrapper {
     margin: 0 auto;
@@ -6,8 +10,8 @@
 
 /* header */
 .header {
-    margin-top: 64px;
     max-width: 270px;
+    margin-top: 64px;
     text-align: center;
     justify-content: center;
     float: left;
@@ -72,4 +76,48 @@
 .header-description {
     text-align: justify;
     color: #727272;
+}
+
+
+/* section */
+.section {
+    margin-top: 58px;
+    float: right;
+    width: 500px;
+    display: block;
+}
+
+
+.section_title {
+    font-size: 34px;
+    font-weight: 560;
+    color: #222;
+}
+
+
+.section_title::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ddd9d9;
+    margin: 28px 0 0 0; 
+}
+
+
+.section_items {
+    margin: 0 auto;
+}
+
+
+.progamming_language {
+    margin: 13px 0;
+    color: #393939;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.software_name {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
 }
