@@ -1,0 +1,39 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* Mobile & Tablet */
+@media (max-width: 52.5em) {
+    .wrapper {
+        word-wrap: break-word;
+        max-width: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .header {
+        padding: 0;
+        margin: 0;
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .section {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .wrapper {
+        word-wrap: break-word;
+    }
+}
