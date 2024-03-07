@@ -2,6 +2,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+
+body {
+    width: 100%;
+}
+
 /* wrapper */
 .wrapper {
     margin: 0 auto;
@@ -39,6 +44,7 @@ html {
     max-width: 100%;
     overflow-clip-margin: content-box;
     overflow: clip;
+    border-radius: 50%;
 }
 
 
